@@ -1,7 +1,7 @@
 {
-  "name": "static-site",
+  "name": "enquirer",
   "version": "1.0.0",
-  "description": "",
+  "description": "w dsa das ## Table of Contents - [Installation](#installation) - [Usage](#usage) - [Credits](#credits) - [License](#license) ## Installation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "enquirer": "^2.3.6",
+    "inquirer": "^6.3.1",
+    "prompt-confirm": "^2.0.4"
   }
 }
