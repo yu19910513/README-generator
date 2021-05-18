@@ -15,6 +15,8 @@ ${answer.desc}
 - [License](#license)
 ## Installation
 ${answer.installation}
+### Test Intructions
+${answer.test}
 
 ## Usage
 ${answer.usage}
@@ -60,8 +62,13 @@ inquirer
     {
       type: 'input',
       name: 'collaborator',
-      message: 'Please list the collaborators',
+      message: 'Please list the collaborators and contribution notes',
     },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Please enter test instructions',
+      },
     {
       type: 'rawlist',
       name: 'license',
