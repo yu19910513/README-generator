@@ -1,25 +1,27 @@
 # README generator
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-to generate README
+to generate README file
 ## Table of Contents
 - [Installation](#installation)
+- [Tests](#tests)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-npm i
-### Test Intructions
-not available
+install node JS and npm prior to use
+
+### Tests
+N?A
 
 ## Usage
-open terminal and node index.js
+open terminal and enter command line 'npm i' and then 'node index.js'
 
 ## Credits
-1. Rex 2. Me 3. Google
+1. Rex 2. me 3. google
 
 ## License
-* Licensed under the Mozilla Public License 2.0 (MPL-2.0) License. Copyright © 2021
+* Licensed under the MIT license (MIT) License. Copyright © 2021
 ---
 ## Contacts
 GitHub: [yu19910513](https://github.com/yu19910513/)

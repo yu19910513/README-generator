@@ -3,19 +3,20 @@ const fs = require('fs');
 // const license = require('./utils')
 const inquirer = require('inquirer')
 const generateREADME = (answer) =>
-
 `# ${answer.title}
 ${answer.badge}
 ## Description
 ${answer.desc}
 ## Table of Contents
 - [Installation](#installation)
+- [Tests](#tests)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 ## Installation
 ${answer.installation}
-### Test Intructions
+
+### Tests
 ${answer.test}
 
 ## Usage
@@ -115,23 +116,7 @@ inquirer
 
 
   const bdge = [
-    'GNU General Public License (GPL)',
-    'GNU Lesser General Public License (LGPL)',
-    'MIT license (MIT)',
-    'Mozilla Public License 2.0 (MPL-2.0)',
-    'Eclipse Public License 2.0 (EPL-2.0)',
-    'Apache License 2.0 (Apache-2.0)',
-    '3-clause BSD license (BSD-3-Clause)',
-    '2-clause BSD license (BSD-2-Clause)'
-];
-  const bdgeIMG = [
-      '[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)',
-      '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)',
-      '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-      '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
-      '[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)',
-      '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
-      '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)',
-      '[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)'
-
+    'GNU General Public License (GPL)','GNU Lesser General Public License (LGPL)','MIT license (MIT)','Mozilla Public License 2.0 (MPL-2.0)','Eclipse Public License 2.0 (EPL-2.0)','Apache License 2.0 (Apache-2.0)','3-clause BSD license (BSD-3-Clause)','2-clause BSD license (BSD-2-Clause)'
+  ];
+  const bdgeIMG = ['[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)','[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)','[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)','[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)','[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)','[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)','[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)','[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)'
   ]
