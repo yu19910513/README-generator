@@ -25,7 +25,7 @@ ${answer.usage}
 ${answer.collaborator}
 
 ## License
-* ${answer.license}
+* Licensed under the ${answer.license} License. Copyright © 2021
 ---
 ## Contacts
 GitHub: [${answer.git}](https://github.com/${answer.git}/)
