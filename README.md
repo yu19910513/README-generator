@@ -1,3 +1,33 @@
-# homework09
-readme generator
-[https://www.youtube.com/watch?v=NvcCB4bClz8]
+# README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Description
+A README generator is an application to generate README.md with all necessary components which include but are not limited to title, description, table of contents, installation, tests, usage, credits, and licenses. It is a single JavaScript file and run by node JS.
+## Table of Contents
+- [Installation](#installation)
+- [Tests](#tests)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+## Installation
+Installation of node.js and npm are required. Package.json with dependency has been attached. User only needs to enter “npm install” or “npm i” on the shell terminal to pull the node module to the local drive PRIOR TO the first use.
+
+### Tests
+No Test Available
+
+## Usage
+The user simply needs to execute the index.js file by entering node index.js on the shell terminal. After entering all of content, the console log will state “Successfully created README.md”. The user can find the new README file in the fold named “result”.
+
+```md
+![Alt text](result/readme.png)
+```
+
+## Credits
+1. Rex 2. Google
+
+## License
+* Licensed under the MIT license (MIT) License. Copyright © 2021
+---
+## Contacts
+GitHub: [yu19910513](https://github.com/yu19910513/)
+
+Email: [rexyu@uw.edu](mailto:rexyu@uw.edu)
