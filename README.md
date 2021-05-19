@@ -17,9 +17,9 @@ No Test Available
 ## Usage
 The user simply needs to execute the index.js file by entering node index.js on the shell terminal. After entering all of content, the console log will state “Successfully created README.md”. The user can find the new README file in the fold named “result”.
 
-```md
-![image](result/readme.png)
-```
+
+![alt text](result/readme.png)
+
 
 ## Credits
 1. Rex 2. Google
