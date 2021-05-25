@@ -19,9 +19,10 @@ The user simply needs to execute the index.js file by entering node index.js on 
 
 
 ![alt text](result/readme.png)
+walkthrough videos: https://www.youtube.com/watch?v=6ItKvE6fEpg
 
 
-## Credits
+## Credits(Contributing)
 1. Rex 2. Google
 
 ## License
