@@ -6,6 +6,7 @@ A README generator is an application to generate README.md with all necessary co
 - [Installation](#installation)
 - [Tests](#tests)
 - [Usage](#usage)
+- [Contributing](#contributing)
 - [Credits](#credits)
 - [License](#license)
 ## Installation
@@ -21,8 +22,15 @@ The user simply needs to execute the index.js file by entering node index.js on 
 ![alt text](result/readme.png)
 walkthrough videos: https://www.youtube.com/watch?v=6ItKvE6fEpg
 
+## Contributing
+you may fork this application by the following steps
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. **Other Notes**
 
-## Credits(Contributing)
+## Credits
 1. Rex 2. Google
 
 ## License

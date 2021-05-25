@@ -22,6 +22,16 @@ ${answer.test}
 ## Usage
 ${answer.usage}
 
+## Contributing
+
+## Contributing
+you may fork this application by the following steps
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. **Other Notes** ${answer.contributing}
+
 ## Credits
 ${answer.collaborator}
 
@@ -59,6 +69,11 @@ inquirer
       type: 'input',
       name: 'usage',
       message: 'Please provide usage information',
+    },
+    {
+      type: 'input',
+      name: 'contributing',
+      message: 'Please enter additonal contributing notes beside the general information; leave it blank if n/a',
     },
     {
       type: 'input',
